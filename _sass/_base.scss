@@ -8,6 +8,15 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: $background-color;
+  color-scheme: dark;
+}
+
 /**
  * Basic styling
  */
@@ -15,6 +24,9 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -72,8 +84,10 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: 600;
   color: $headings-color;
+  line-height: 1.25;
+  letter-spacing: 0;
 }
 
 /**
@@ -82,13 +96,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $link-color;
   text-decoration: none;
+  text-underline-offset: 0.2em;
 
   &:visited {
-    color: darken($link-color, 15%);
+    color: lighten($link-color, 8%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $active-color;
     text-decoration: underline;
   }
 }
@@ -98,10 +113,10 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 4px solid $accent-color;
   padding-left: $spacing-unit / 2;
   font-size: 18px;
-  letter-spacing: -1px;
+  letter-spacing: 0;
   font-style: italic;
 
   > :last-child {
@@ -115,9 +130,10 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  color: lighten($text-color, 4%);
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  background-color: $code-background-color;
 }
 
 code {
@@ -153,6 +169,10 @@ pre {
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
+}
+
+main {
+  flex: 1;
 }
 
 /**

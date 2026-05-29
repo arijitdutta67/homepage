@@ -2,21 +2,28 @@
 # front matter
 ---
 /* basic color customizations */
-$border-color: darken(#828282, 25%);
-$link-color: #2a7ae2 !default;
-$active-color: #2a7ae2;
-$text-color:#111 !default;
-$headings-color: #111;
-$background-color: #fdfdfd !default;
+$background-color: #101214 !default;
+$surface-color: #171a1d !default;
+$surface-color-alt: #20252a !default;
+$border-color: #333a40 !default;
+$link-color: #6ed7c5 !default;
+$active-color: #f2c96f !default;
+$accent-color: #d88362 !default;
+$text-color: #ece7dc !default;
+$muted-color: #aeb7bd !default;
+$headings-color: #fff7e8 !default;
+$code-background-color: #1b2027 !default;
 
 /* font base */ 
 @font-face {
   font-family: 'Noto Sans';
   src:  url('fonts/notosans-regular-webfont.woff') format('woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Source Code Pro';
   src:  url('fonts/sourcecodepro-regular-webfont.woff') format('woff');
+  font-display: swap;
 }
 $base-font-family: 'Noto Sans', Helvetica, Arial, sans-serif !default;
 $code-font-family: 'Source Code Pro', monospace;
@@ -29,9 +36,9 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color:       $muted-color !default;
+$grey-color-light: lighten($border-color, 10%) !default;
+$grey-color-dark:  darken($muted-color, 15%) !default;
 
 // Width of the content area
 $content-width:    800px !default;

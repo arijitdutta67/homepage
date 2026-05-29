@@ -1,18 +1,30 @@
 title: Arijit Dutta
-# author: Arijit Dutta
-# email: arijit.dutta@iitb.ac.in
+author: Arijit Dutta
+email: arijit.dutta@iitb.ac.in
+description: "Research engineer working on applied cryptography, privacy, and blockchain protocols."
+keywords: "Arijit Dutta, applied cryptography, privacy, blockchain, proof of reserves"
+github_username: arijitdutta67
+scholar_url: "https://scholar.google.com/citations?user=Ql795agAAAAJ&hl=en"
+linkedin_url: "https://www.linkedin.com/in/arijit-dutta-14bb2138"
+twitter_url: "https://x.com/arijit17"
+github_url: "https://github.com/arijitdutta67"
+repository: arijitdutta67/homepage
 # repo: "https://github.com/arijitdutta67/homepage"
 
 # urls
 # your gh-pages url: https://username.github.io
-# url: https://arijitdutta67.github.io
+url: https://arijitdutta67.github.io
 # your repository name: /repository
 baseurl: /homepage
 minima:
   date_format: "%b %-d, %Y"
   
-# analytics if desired (and use environment variable on build command)
-google_analytics: UA-74844011-1
+# Google Analytics 4 Measurement ID. Create a GA4 web stream and replace
+# the empty value with the Measurement ID, e.g. G-XXXXXXXXXX.
+google_analytics:
+# Legacy Universal Analytics ID, kept only as a note. UA IDs no longer collect
+# new standard Analytics data.
+# universal_analytics: UA-74844011-1
 
 # defaults (to simplify front matter)
 defaults:

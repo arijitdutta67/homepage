@@ -1,6 +1,7 @@
 ---
 title: Publications
 nav: true
+nav_order: 2
 ---
 ## Journal Publications
 1. **A. Dutta**, S. Bagad, S. Vijayakumaran, "MProve+: Privacy Enhancing Proof of Reserves Protocol for Monero", IEEE Transactions on Information Forensics & Security, [[preprint]](https://eprint.iacr.org/2021/1077.pdf) [[doi]](https://doi.org/10.1109/TIFS.2021.3088035)
@@ -13,4 +14,3 @@ nav: true
   1. **A. Dutta**, A. Pramanik, "Modified approximate lower triangular encoding of LDPC codes," *2015 International Conference on Advances in Computer Engineering and Applications*, Ghaziabad, 2015, pp. 364-369. [[doi]](https://doi.org/10.1109/ICACEA.2015.7164731)
 
 The list of publications can also be found at [Google Scholar](https://scholar.google.com/citations?user=Ql795agAAAAJ&hl=en).  
-

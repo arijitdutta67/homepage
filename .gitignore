@@ -1,5 +1,19 @@
-.bundle/
-Gemfile.lock
+# Generated Jekyll output. GitHub Pages rebuilds this from source.
 _site/
 .jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local Ruby/Bundler state.
+.bundle/
 vendor/bundle/
+Gemfile.lock
+
+# Local editor and OS files.
+.DS_Store
+*.swp
+*.swo
+
+# Local secrets.
+.env
+.env.*

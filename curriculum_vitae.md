@@ -1,6 +1,7 @@
 ---
 title: Curriculum Vitae
 nav: true
+nav_order: 3
 ---
 # Curriculum Vitae
 <p>Here's my CV. Last updated on {{ site.time | date: '%B %d, %Y'  }}.</p>
